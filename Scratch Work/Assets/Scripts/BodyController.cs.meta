@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 9ca8fa197363ce241abb889c88c81128
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - cam: {instanceID: 0}
+  - selectedBody: {instanceID: 0}
+  - vectorObject: {fileID: 2684700537218828947, guid: f8e8a3be9237a9c4782bee00260eac42, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
