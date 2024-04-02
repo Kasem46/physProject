@@ -22,8 +22,10 @@ public class CameraMove : MonoBehaviour
         float verticalAxis = Input.GetAxis("Vertical");
 
         float zoom = Input.GetAxis("zoom");
-
-        if (zoom == 1f)
+        if (camComponent.orthographicSize < 0f) {
+            camComponent.orthographicSize = 0;
+        }
+        else if (zoom == 1f)
         {
             camComponent.orthographicSize -= camScaleSpeed * Time.deltaTime;
         }

@@ -34,6 +34,7 @@ public class Body : MonoBehaviour
 
             //finally, transform via rules
             transform.position += new Vector3(velocity.x, velocity.y, 0) * Time.deltaTime;
+
         }
     }
 
